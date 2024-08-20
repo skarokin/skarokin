@@ -1,5 +1,12 @@
 ### about
-I'm a 20 year old CS student located in the NYC metropolitan area, mainly interested in ML engineering.
+I'm a 20-year-old CS student from Bergen County, NJ. 
+
+### favorite techs
+- SvelteKit
+- Go
+- Docker
+- EC2
+- Firebase Hosting
 
 ### stuff
 - Native Korean 🇰🇷 and have been learning Japanese 🇯🇵 since 2021
