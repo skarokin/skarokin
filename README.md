@@ -5,8 +5,10 @@ I'm a 20-year-old CS student from Bergen County, NJ.
 - SvelteKit
 - Go
 - Docker
-- EC2
+- Google Cloud Run
 - Firebase Hosting
+- MySQL
+- Obsidian
 
 ### stuff
 - Native Korean 🇰🇷 and have been learning Japanese 🇯🇵 since 2021
