@@ -7,8 +7,6 @@ I'm a 20-year-old CS student from Bergen County, NJ.
 - Docker
 - Google Cloud Run
 - Firebase Hosting
-- MySQL
-- Obsidian
 
 ### stuff
 - Native Korean 🇰🇷 and have been learning Japanese 🇯🇵 since 2021
