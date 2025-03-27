@@ -1,4 +1,4 @@
-20-year-old CS student from Bergen County, NJ.
+21-year-old CS student from Bergen County, NJ.
 
 ### favorite techs
 - SvelteKit
