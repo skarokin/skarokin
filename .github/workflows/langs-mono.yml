@@ -26,8 +26,8 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           actor: ${{ github.repository_owner }}
           languages_output_mode: vector        # defaults to vector
-          # languages_max_languages: "6"
-          # languages_excluded_languages: "HTML,CSS, JavaScript"
+          languages_max_languages: "6"
+          languages_excluded_languages: "HTML,Svelte,Jupyter Notebook,MDX,Dockerfile,Makefile"
 
       - name: Commit and push if changed
         run: |
