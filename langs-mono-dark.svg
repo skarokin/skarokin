@@ -1,0 +1,81 @@
+<svg width="594.2" height="373" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Checkered pattern for empty bar (░ effect) -->
+    <pattern id="checkered-pattern-dark" x="0" y="0" width="4.0" height="4.0" patternUnits="userSpaceOnUse">
+      <rect width="2.0" height="2.0" x="0" y="0" fill="none" />
+      <rect width="2.0" height="2.0" x="2.0" y="0" fill="#FFFFFF" />
+      <rect width="2.0" height="2.0" x="0" y="2.0" fill="#FFFFFF" />
+      <rect width="2.0" height="2.0" x="2.0" y="2.0" fill="none" />
+    </pattern>
+    <style>
+      .lang-text { font-family: 'Courier New', Courier, monospace; font-size: 16px; fill: #FFFFFF; }
+      .bar-filled { fill: #FFFFFF; }
+      .bar-empty { fill: url(#checkered-pattern-dark); }
+    </style>
+  </defs>
+
+  <!-- 3D Box Borders -->
+  <g id="box-borders">
+    <rect x="20" y="20" width="539.2" height="318" 
+        fill="none" stroke="#FFFFFF" stroke-width="2" 
+        rx="0" />
+    <line x1="35" y1="338" 
+            x2="35" y2="354.0" 
+            stroke="#FFFFFF" stroke-width="2" />
+    <line x1="559.2" y1="35" 
+            x2="575.2" y2="35" 
+            stroke="#FFFFFF" stroke-width="2" />
+    <line x1="34.0" y1="353" 
+            x2="575.2" y2="353" 
+            stroke="#FFFFFF" stroke-width="2" />
+    <line x1="574.2" y1="34.0" 
+            x2="574.2" y2="354.0" 
+            stroke="#FFFFFF" stroke-width="2" />
+  </g>
+
+  <!-- Language Statistics -->
+  <g id="content">
+    <text x="40" y="55" class="lang-text">Java           </text>
+    <rect x="203.2" y="41" width="63.839999999999996" height="12" class="bar-filled" />
+    <rect x="267.03999999999996" y="41" width="164.16" height="12" class="bar-empty" />
+    <text x="450.4" y="55" class="lang-text"> 29.7 %</text>
+    <text x="40" y="79" class="lang-text">Svelte         </text>
+    <rect x="203.2" y="65" width="45.599999999999994" height="12" class="bar-filled" />
+    <rect x="248.79999999999998" y="65" width="182.4" height="12" class="bar-empty" />
+    <text x="450.4" y="79" class="lang-text"> 20.8 %</text>
+    <text x="40" y="103" class="lang-text">Jupyter Notebook</text>
+    <rect x="203.2" y="89" width="36.48" height="12" class="bar-filled" />
+    <rect x="239.67999999999998" y="89" width="191.52" height="12" class="bar-empty" />
+    <text x="450.4" y="103" class="lang-text"> 17.8 %</text>
+    <text x="40" y="127" class="lang-text">TypeScript     </text>
+    <rect x="203.2" y="113" width="27.359999999999996" height="12" class="bar-filled" />
+    <rect x="230.55999999999997" y="113" width="200.64000000000001" height="12" class="bar-empty" />
+    <text x="450.4" y="127" class="lang-text"> 13.4 %</text>
+    <text x="40" y="151" class="lang-text">Python         </text>
+    <rect x="203.2" y="137" width="18.24" height="12" class="bar-filled" />
+    <rect x="221.44" y="137" width="209.76" height="12" class="bar-empty" />
+    <text x="450.4" y="151" class="lang-text">  7.6 %</text>
+    <text x="40" y="175" class="lang-text">Go             </text>
+    <rect x="203.2" y="161" width="18.24" height="12" class="bar-filled" />
+    <rect x="221.44" y="161" width="209.76" height="12" class="bar-empty" />
+    <text x="450.4" y="175" class="lang-text">  6.5 %</text>
+    <text x="40" y="199" class="lang-text">C              </text>
+    <rect x="203.2" y="185" width="228.0" height="12" class="bar-empty" />
+    <text x="450.4" y="199" class="lang-text">  1.9 %</text>
+    <text x="40" y="223" class="lang-text">Typst          </text>
+    <rect x="203.2" y="209" width="228.0" height="12" class="bar-empty" />
+    <text x="450.4" y="223" class="lang-text">  1.3 %</text>
+    <text x="40" y="247" class="lang-text">OCaml          </text>
+    <rect x="203.2" y="233" width="228.0" height="12" class="bar-empty" />
+    <text x="450.4" y="247" class="lang-text">  0.4 %</text>
+    <text x="40" y="271" class="lang-text">MDX            </text>
+    <rect x="203.2" y="257" width="228.0" height="12" class="bar-empty" />
+    <text x="450.4" y="271" class="lang-text">  0.3 %</text>
+    <text x="40" y="295" class="lang-text">Dockerfile     </text>
+    <rect x="203.2" y="281" width="228.0" height="12" class="bar-empty" />
+    <text x="450.4" y="295" class="lang-text">  0.2 %</text>
+    <text x="40" y="319" class="lang-text">Makefile       </text>
+    <rect x="203.2" y="305" width="228.0" height="12" class="bar-empty" />
+    <text x="450.4" y="319" class="lang-text">  0.0 %</text>
+  </g>
+</svg>
