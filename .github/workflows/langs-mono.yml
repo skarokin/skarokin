@@ -1,0 +1,38 @@
+name: Languages (mono)
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - 'langs-mono-*.svg'
+      - 'README.md'
+
+jobs:
+  langs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Languages card
+        uses: akuwuh/re-po@main
+        with:
+          card: languages
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          actor: ${{ github.repository_owner }}
+          languages_output_mode: vector        # defaults to vector
+          # languages_max_languages: "6"
+          # languages_excluded_languages: "HTML,CSS, JavaScript"
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md langs-mono-*.svg 2>/dev/null || true
+          git diff --quiet && git diff --staged --quiet || \
+            (git commit -m "Update language stats" && git push)
