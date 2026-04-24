@@ -28,26 +28,26 @@
     <text x="40" y="55" class="lang-text">Java           </text>
     <rect x="203.2" y="41" width="109.43999999999998" height="12" class="bar-filled" />
     <rect x="312.64" y="41" width="118.56000000000002" height="12" class="bar-empty" />
-    <text x="450.4" y="55" class="lang-text"> 47.9 %</text>
+    <text x="450.4" y="55" class="lang-text"> 46.8 %</text>
     <text x="40" y="79" class="lang-text">TypeScript     </text>
     <rect x="203.2" y="65" width="45.599999999999994" height="12" class="bar-filled" />
     <rect x="248.79999999999998" y="65" width="182.4" height="12" class="bar-empty" />
-    <text x="450.4" y="79" class="lang-text"> 21.8 %</text>
+    <text x="450.4" y="79" class="lang-text"> 21.3 %</text>
     <text x="40" y="103" class="lang-text">Python         </text>
-    <rect x="203.2" y="89" width="27.359999999999996" height="12" class="bar-filled" />
-    <rect x="230.55999999999997" y="89" width="200.64000000000001" height="12" class="bar-empty" />
-    <text x="450.4" y="103" class="lang-text"> 12.3 %</text>
+    <rect x="203.2" y="89" width="36.48" height="12" class="bar-filled" />
+    <rect x="239.67999999999998" y="89" width="191.52" height="12" class="bar-empty" />
+    <text x="450.4" y="103" class="lang-text"> 14.4 %</text>
     <text x="40" y="127" class="lang-text">Go             </text>
     <rect x="203.2" y="113" width="27.359999999999996" height="12" class="bar-filled" />
     <rect x="230.55999999999997" y="113" width="200.64000000000001" height="12" class="bar-empty" />
-    <text x="450.4" y="127" class="lang-text"> 10.6 %</text>
+    <text x="450.4" y="127" class="lang-text"> 10.3 %</text>
     <text x="40" y="151" class="lang-text">Typst          </text>
     <rect x="203.2" y="137" width="9.12" height="12" class="bar-filled" />
     <rect x="212.32" y="137" width="218.88" height="12" class="bar-empty" />
-    <text x="450.4" y="151" class="lang-text">  4.1 %</text>
+    <text x="450.4" y="151" class="lang-text">  4.0 %</text>
     <text x="40" y="175" class="lang-text">JavaScript     </text>
     <rect x="203.2" y="161" width="9.12" height="12" class="bar-filled" />
     <rect x="212.32" y="161" width="218.88" height="12" class="bar-empty" />
-    <text x="450.4" y="175" class="lang-text">  3.3 %</text>
+    <text x="450.4" y="175" class="lang-text">  3.2 %</text>
   </g>
 </svg>
